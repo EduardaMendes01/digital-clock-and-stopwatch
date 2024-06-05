@@ -116,3 +116,87 @@ body{
     -moz-box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.75) inset;
 }
 
+@media screen and (max-width: 800px){
+    .clock{
+        height: 180px;
+        width: 520px;
+    }
+    
+    .clock div{
+        height: 150px;
+        width: 120px;
+    }
+    .clock span{
+        font-weight: bolder;
+        font-size: 50px;
+    }
+    
+    .clock span.time{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 550px){
+    .clock{
+        height: 160px;
+        width: 500px;
+    }
+    
+    .clock div{
+        height: 130px;
+        width: 100px;
+    }
+    .clock span{
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    
+    .clock span.time{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 380px){
+    .clock{
+        height: 140px;
+        width: 480px;
+    }
+    
+    .clock div{
+        height: 110px;
+        width: 80px;
+    }
+    .clock span{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    
+    .clock span.time{
+        font-size: 6px;
+    }
+    
+    .stopButton{
+        right: 10px;
+        top: 7%;
+    }
+}
+
+@media (max-width: 280px){
+    .clock{
+        height: 120px;
+        width: 460px;
+    }
+    
+    .clock div{
+        height: 90px;
+        width: 60px;
+    }
+    .clock span{
+        font-weight: bolder;
+        font-size: 30px;
+    }
+    
+    .clock span.time{
+        font-size: 6px;
+    }
+}
